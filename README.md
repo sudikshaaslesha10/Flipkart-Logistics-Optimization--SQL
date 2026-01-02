@@ -30,7 +30,7 @@ Summarize insights and recommendations in a PowerPoint presentation
 
 
 ## Flipkart project with SQL Script :
-[Flipkart_project.sql](Flipkart_project.sql)
+Flipkart project.sql
 
 ## 🛠️ Tools & Technologies
 
