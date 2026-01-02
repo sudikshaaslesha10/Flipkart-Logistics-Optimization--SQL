@@ -15,15 +15,6 @@ Generate key logistics KPIs using SQL queries
 
 Summarize insights and recommendations in a PowerPoint presentation
 
-Flipkart_Delivery_Agents – Agent details, experience, speed, and performance
-
-Flipkart_Orders – Order dates, delivery dates, routes, and warehouses
-
-Flipkart_Routes – Route distance, traffic levels, and start/end locations
-
-Flipkart_ShipmentTracking – Shipment checkpoints, delay reasons, and timestamps
-
-Flipkart_Warehouses – Warehouse processing times and shipment handling data
 
 ##🗂️ Dataset Description
 
