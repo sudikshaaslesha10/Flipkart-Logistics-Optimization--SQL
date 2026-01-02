@@ -55,33 +55,39 @@ Actionable insights and recommendations
 ## 🔍 Analysis Performed
 1️⃣ Data Cleaning & Preparation
 
-Standardized all date fields to YYYY-MM-DD format for consistency
-Removed inconsistencies to ensure accurate joins and calculations
+-> Standardized all date fields to YYYY-MM-DD format for consistency
+
+-> Removed inconsistencies to ensure accurate joins and calculations
 
 2️⃣ Delivery Delay Analysis
 
-Calculated average delivery delays by route, region, and warehouse
-Identified high-delay routes caused by congestion, traffic, and hub issues
+-> Calculated average delivery delays by route, region, and warehouse
+
+-> Identified high-delay routes caused by congestion, traffic, and hub issues
 
 3️⃣ Route Efficiency Evaluation
 
-Ranked routes based on travel time and traffic conditions
-Highlighted inefficient routes impacting delivery speed and cost
+-> Ranked routes based on travel time and traffic conditions
+
+-> Highlighted inefficient routes impacting delivery speed and cost
 
 4️⃣ Warehouse Performance Analysis
 
-Measured average processing time per warehouse
-Identified warehouses creating operational bottlenecks
+-> Measured average processing time per warehouse
+
+-> Identified warehouses creating operational bottlenecks
 
 5️⃣ Delivery Agent Productivity Assessment
 
-Evaluated agent performance using on-time delivery percentage
-Ranked agents and flagged low performers for improvement
+-> Evaluated agent performance using on-time delivery percentage
+
+-> Ranked agents and flagged low performers for improvement
 
 6️⃣ Shipment Tracking & Delay Patterns
 
-Analyzed shipment checkpoint data to identify frequent delay reasons
-Detected recurring delay points in the logistics flow
+-> Analyzed shipment checkpoint data to identify frequent delay reasons
+
+-> Detected recurring delay points in the logistics flow
 
 ## 📊 Key Findings
 
