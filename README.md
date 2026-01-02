@@ -18,45 +18,19 @@ Summarize insights and recommendations in a PowerPoint presentation
 
 ## 🗂️ Dataset Description
 
-1️⃣ Flipkart_Orders
-Column Name	Description
-order_id	Unique identifier for each order
-order_date	Date when the order was placed
-actual_delivery_date	Final delivery completion date
-route_id	Assigned delivery route
-warehouse_id	Fulfillment center handling the order
+1️⃣ Flipkart_Orders: [Flipkart_Orders.csv](data/Flipkart_Orders.csv)
 
-2️⃣ Flipkart_Routes
-Column Name	Description
-route_id	Unique route identifier
-start_location	Source city or hub
-end_location	Destination city
-distance_km	Total route distance in kilometers
-traffic_level	Traffic intensity (Low / Medium / High)
+2️⃣ Flipkart_Routes: [Flipkart_Routes.csv](data/Flipkart_Routes.csv)
 
-3️⃣ Flipkart_Warehouses
-Column Name	Description
-warehouse_id	Warehouse identifier
-warehouse_city	Warehouse location
-avg_processing_time	Average shipment processing time
-capacity	Handling capacity of warehouse
+3️⃣ Flipkart_Warehouses: [Flipkart_Warehouses.csv](data/Warehouses.csv)
 
-4️⃣ Flipkart_Delivery_Agents
-Column Name	Description
-agent_id	Delivery agent identifier
-experience_years	Agent experience level
-avg_speed	Average delivery speed
-on_time_delivery_pct	Percentage of on-time deliveries
+4️⃣ Flipkart_Delivery_Agents: [Flipkart_Delivery_Agents.csv](data/Flipkart_Delivery_Agents.csv)
 
-5️⃣ Flipkart_ShipmentTracking
-Column Name	Description
-shipment_id	Shipment identifier
-checkpoint	Delivery checkpoint stage
-delay_reason	Reason for delay (if any)
-checkpoint_time	Timestamp of shipment movement
+5️⃣ Flipkart_ShipmentTracking: [Flipkart_ShipmentTracking.csv](data/Flipkart_ShipmentTracking.csv)
+
 
 ## Flipkart project with SQL Script :
-[Flipkart Project](
+ [Flipkart_Project_SQL.sql](sql/Flipkart_Project_SQL.sql)
 
 ## 🛠️ Tools & Technologies
 
@@ -70,7 +44,13 @@ Window Functions (RANK, ROW_NUMBER)
 
 ## KPI Calculations
 
-Microsoft PowerPoint for insights visualization
+Cleanly formatted SQL queries
+
+Output tables directly pasted from the database
+
+Visualizations for delay patterns, route KPIs, warehouse efficiency, and agent performance
+
+Actionable insights and recommendations
 
 ## 🔍 Analysis Performed
 1️⃣ Data Cleaning & Preparation
@@ -105,45 +85,45 @@ Detected recurring delay points in the logistics flow
 
 ## 📊 Key Findings
 
-Delivery delays are a major operational challenge driven by congestion, traffic disruptions, and warehouse processing issues
+1. Delivery delays are a major operational challenge driven by congestion, traffic disruptions, and warehouse processing issues
 
-Route inefficiencies increase delivery time and operational costs
+2. Route inefficiencies increase delivery time and operational costs
 
-Warehouse performance varies significantly, with certain hubs causing shipment bottlenecks
+3. Warehouse performance varies significantly, with certain hubs causing shipment bottlenecks
 
-Delivery agent performance differs widely, impacting overall delivery success
+4. Delivery agent performance differs widely, impacting overall delivery success
 
-Shipment tracking data reveals recurring delay checkpoints, indicating gaps in real-time execution
+5. Shipment tracking data reveals recurring delay checkpoints, indicating gaps in real-time execution
 
-SQL-based analytics proved effective in uncovering actionable logistics insights
+6. SQL-based analytics proved effective in uncovering actionable logistics insights
 
 ## ✅ Recommendations
 
-Optimize delivery routes using traffic and delay insights with dynamic or time-based routing
+1. Optimize delivery routes using traffic and delay insights with dynamic or time-based routing
 
-Improve warehouse efficiency through better staffing, workflow optimization, or automation
+2. Improve warehouse efficiency through better staffing, workflow optimization, or automation
 
-Enhance agent training and workload balancing, especially for agents with <80% on-time delivery
+3. Enhance agent training and workload balancing, especially for agents with <80% on-time delivery
 
-Use real-time shipment tracking alerts to proactively address frequent delay points
+4. Use real-time shipment tracking alerts to proactively address frequent delay points
 
-Implement KPI dashboards for continuous monitoring of logistics performance
+5. Implement KPI dashboards for continuous monitoring of logistics performance
 
-Prioritize high-volume and high-delay zones for immediate operational intervention
+6. Prioritize high-volume and high-delay zones for immediate operational intervention
 
 📈 Business Impact
 
 Applying these recommendations can help Flipkart:
 
-Reduce average delivery delays
+1. Reduce average delivery delays
 
-Improve on-time delivery percentage
+2. Improve on-time delivery percentage
 
-Lower logistics and operational costs
+3. Lower logistics and operational costs
 
-Enhance warehouse productivity
+4. Enhance warehouse productivity
 
-Improve overall customer satisfaction
+5. Improve overall customer satisfaction
 
 📝 Conclusion
 
