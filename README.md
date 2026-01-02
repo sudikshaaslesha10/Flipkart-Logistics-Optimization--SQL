@@ -16,10 +16,7 @@ Generate key logistics KPIs using SQL queries
 Summarize insights and recommendations in a PowerPoint presentation
 
 
-##🗂️ Dataset Description
-
-This project uses multiple structured datasets representing Flipkart’s end-to-end logistics operations. 
-The datasets are stored in relational tables and linked using primary and foreign keys.
+## 🗂️ Dataset Description
 
 1️⃣ Flipkart_Orders
 Column Name	Description
@@ -61,7 +58,7 @@ checkpoint_time	Timestamp of shipment movement
 ## Flipkart project with SQL Script :
 [Flipkart Project](
 
-🛠️ Tools & Technologies
+## 🛠️ Tools & Technologies
 
 MySQL
 SQL Concepts Used:
@@ -71,7 +68,7 @@ Aggregate Functions (COUNT, AVG, SUM)
 Date Functions (STR_TO_DATE, DATE_FORMAT, DATEDIFF)
 Window Functions (RANK, ROW_NUMBER)
 
-KPI Calculations
+## KPI Calculations
 
 Microsoft PowerPoint for insights visualization
 
